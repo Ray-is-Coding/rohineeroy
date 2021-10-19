@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "M";
+    src: url(fonts/M.otf);
+}
+@font-face {
+    font-family: "ohio";
+    src: url(fonts/Ohio.ttf);
+}
+@font-face {
+    font-family: "Snowball";
+    src: url(fonts/Snowball.ttf);
+}
+body{
+    background: linear-gradient(#fafeff, #e4f3ff, #c9f5fd, #d1f5fc);
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+h1{
+    font-size: 350%;
+    color: #289abd;
+    font-family: "Snowball", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 12.5%;
+    font-family: cursive;
+    color: #3db5ca;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.bottom-cloud{
+    height: auto;
+    width: 13%;
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+
+.top-cloud{
+    height: auto;
+    width: 15%;
+    position: absolute;
+    right: 40%;
+    top: 55%;
+}
+.top-container{
+    padding-top: 100px;
+    position: relative;
+}
+.mountain{
+    width: 50%;
+}
+
+.girl{
+    margin-top: 50px;
+    width: 10%;
+}
+
+.hrline{
+    border-top: 4px dotted rgb(74, 183, 202);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin: 10px 700px 10px 700px;
+}
+
+.paragraph{
+    text-align: center;
+    margin: 0px 250px 50px 250px;
+    font-weight: lighter;
+}
