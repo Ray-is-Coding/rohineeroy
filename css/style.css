@@ -14,10 +14,22 @@
     font-family: "Mirza";
     src: url(fonts/JosefinSlab-Bold.ttf);
 }
+@font-face {
+    font-family: "Geo";
+    src: url(fonts/OmegleRegular-owopB.ttf);
+}
+@font-face {
+    font-family: "exp";
+    src: url(fonts/Parisish-EEoW.ttf);
+}
+@font-face {
+    font-family: "goth";
+    src: url(fonts/OctapostNbp-3e0X.ttf);
+}
 body{
-    background: linear-gradient(#fafeff, #e4f3ff, #c9f5fd, #d1f5fc);
+    background: linear-gradient(#fafeff, #e4f3ff, #ffffff, #ebf9ff);
     text-align: center;
-    margin: 0 0 0 0;
+    margin: auto auto auto auto;
 }
 
 h1{
@@ -28,20 +40,16 @@ h1{
     margin-bottom: 0;
     font-weight: lighter;
 }
-.hello{
+.title{
     font-family:"ohio";
     font-size: 70px;
-    color: #f1c708;
-    text-shadow: 2px 2px tomato;
+    color: #ffe46c;
+    text-shadow: 3px 3px rgb(231, 72, 44);
     }
-.myskill{
-    font-family:"ohio";
-    font-size: 70px;
-    color: #f1c708;
-    text-shadow: 2px 2px tomato;
-}
+
 .programmer{
     font-family: "P1";
+    font-size: 150%;
     text-align: center;
     color: #1699b1;
     margin-top: 0;
@@ -60,24 +68,80 @@ h1{
 }
 
 .girl{
-    margin-top: 50px;
+    margin-top: 5px;
     width: 30%;
 }
-.hrline{
+/* .hrline{
     border-top: 4px dotted rgb(150, 150, 150);
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
     margin: 10px 700px 10px 700px;
-}
+} */
 .paragraph{
     text-align: center;
-    margin: 0% 20% 50% 20%;
-    font-size: 100%;
+    margin: 0% 15% 50% 15%;
+    font-size: 120%;
     font-family: "Mirza";
     color: #1699b1;
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: bolder;
     line-height: 1.5;
+}
+.exp{
+    text-align: center;
+    margin: 0% 15% 50% 15%;
+    font-size: 120%;
+    font-family: "Mirza";
+    color: #18aec9;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    line-height: 2;
+}
+.com{
+    text-align: center;
+    margin: 0% 15% 50% 15%;
+    font-size: 170%;
+    font-family: "goth";
+    color: #ffbbbb;
+    text-shadow: 3px 3px rgb(255, 95, 95);
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    line-height: 1;
+}
+.skills{
+    text-align: center;
+}
+.emoji{
+    width: 15%;
+    vertical-align: text-bottom;
+}
+
+.logo{
+    width: 4%;
+    vertical-align: text-bottom;
+}
+.table{
+    table-layout: fixed;
+    text-align: center;
+    border-spacing: 0;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lang{
+    font-size: 160%;
+    font-family: "Geo";
+    color: #ff8e71;
+    text-shadow: 2px 2px #ffec7d;
+}
+.icon{
+    font-size: 180%;
+    font-family: "Geo";
+    color: #ff8e71;
+    text-shadow: 2px 2px #ffec7d;
 }
