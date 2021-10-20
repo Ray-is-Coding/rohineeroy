@@ -10,6 +10,10 @@
     font-family: "Snowball";
     src: url(fonts/Snowball.ttf);
 }
+@font-face {
+    font-family: "Mirza";
+    src: url(fonts/JosefinSlab-Bold.ttf);
+}
 body{
     background: linear-gradient(#fafeff, #e4f3ff, #c9f5fd, #d1f5fc);
     text-align: center;
@@ -24,31 +28,42 @@ h1{
     margin-bottom: 0;
     font-weight: lighter;
 }
-
+.hello{
+    font-family:"ohio";
+    font-size: 70px;
+    color: #f1c708;
+    text-shadow: 2px 2px tomato;
+    }
+.myskill{
+    font-family:"ohio";
+    font-size: 70px;
+    color: #f1c708;
+    text-shadow: 2px 2px tomato;
+}
 p{
-    font-size: 12.5%;
     font-size: 100%;
-    font-family: cursive;
-    color: #3db5ca;
+    font-family: "Mirza";
+    color: #1699b1;
     margin-top: 0;
     margin-bottom: 50px;
-    font-weight: bold;
+    font-weight: bolder;
+    line-height: 1.5;
 }
 
 .bottom-cloud{
     height: auto;
-    width: 13%;
+    width: 7%;
     position: absolute;
-    left: 30%;
-    bottom: 15%;
+    left: 33%;
+    bottom: 28%;
 }
 
 .top-cloud{
     height: auto;
-    width: 15%;
+    width: 10%;
     position: absolute;
-    right: 40%;
-    top: 55%;
+    right: 43%;
+    top: 58%;
 }
 .top-container{
     padding-top: 100px;
@@ -58,13 +73,196 @@ p{
     width: 50%;
 }
 
+.bird{
+    top: 45%;
+    right: 53%;
+    width: 15%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.birds{
+    top: 42%;
+    right: 40%;
+    width: 6%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.grass{
+    width: 30%;
+    position: absolute;
+    right: 45%;
+    top: 94%;
+    opacity: 0.8;
+}
+.grass1{
+    width: 30%;
+    position: absolute;
+    right: 25%;
+    top: 94%;
+    opacity: 0.8;
+}
+
+.sf{
+    width: 2.3%;
+    position: absolute;
+    right: 40%;
+    top: 91%;
+}
+.sf1{
+    width: 2.3%;
+    position: absolute;
+    right: 52%;
+    top: 90%;
+}
+.sf2{
+    width: 2.3%;
+    position: absolute;
+    right: 64%;
+    top: 91%;
+}
+.sf3{
+    width: 2.3%;
+    position: absolute;
+    right: 35%;
+    top: 90%;
+}
+.sf4{
+    width: 2.3%;
+    position: absolute;
+    right: 45%;
+    top: 91%;
+}
+.sf5{
+    width: 2.3%;
+    position: absolute;
+    right: 59%;
+    top: 90%;
+}
+.rf{
+    width: 2.3%;
+    position: absolute;
+    right: 70%;
+    top: 92%;
+}
+
+.rf1{
+    width: 2.3%;
+    position: absolute;
+    right: 67%;
+    top: 94%;
+}
+
+.rf2{
+    width: 2.3%;
+    position: absolute;
+    right: 62%;
+    top: 92%;
+}
+.rf3{
+    width: 2.3%;
+    position: absolute;
+    right: 56%;
+    top: 93%;
+}
+.rf4{
+    width: 2.3%;
+    position: absolute;
+    right: 49%;
+    top: 92%;
+}
+.rf5{
+    width: 2.3%;
+    position: absolute;
+    right: 37%;
+    top: 92%;
+}
+.rf6{
+    width: 2.3%;
+    position: absolute;
+    right: 32%;
+    top: 92%;
+}
+.rf7{
+    width: 2.3%;
+    position: absolute;
+    right: 28%;
+    top: 93%;
+}
+.lv{
+    width: 1%;
+    position: absolute;
+    right: 67%;
+    top: 89%;
+}
+.lv1{
+    width: 1%;
+    position: absolute;
+    right: 58%;
+    top: 87%;
+}
+.lv2{
+    width: 1%;
+    position: absolute;
+    right: 43%;
+    top: 89%;
+}
+.lv3{
+    width: 1%;
+    position: absolute;
+    right: 37%;
+    top: 87%;
+}
+.ds{
+    width: 1.5%;
+    position: absolute;
+    right: 69%;
+    top: 89%;
+}
+.ds1{
+    width: 1.5%;
+    position: absolute;
+    right: 62%;
+    top: 88%;
+}
+.ds2{
+    width: 1.5%;
+    position: absolute;
+    right: 55%;
+    top: 89%;
+}
+.ds3{
+    width: 1.5%;
+    position: absolute;
+    right: 47%;
+    top: 89%;
+}
+.ds4{
+    width: 1.5%;
+    position: absolute;
+    right: 39%;
+    top: 89%;
+}
+.trees{
+    width: 13%;
+    position: absolute;
+    right: 23%;
+    top: 82%;
+}
+.fall{
+    width: 7%;
+    position: absolute;
+    right: 70%;
+    top: 71%;
+}
 .girl{
     margin-top: 50px;
-    width: 10%;
+    width: 23%;
 }
 
 .hrline{
-    border-top: 4px dotted rgb(74, 183, 202);
+    border-top: 4px dotted rgb(150, 150, 150);
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
@@ -73,6 +271,6 @@ p{
 
 .paragraph{
     text-align: center;
-    margin: 0px 250px 50px 250px;
+    margin: 0px 300px 50px 300px;
     font-weight: lighter;
 }
