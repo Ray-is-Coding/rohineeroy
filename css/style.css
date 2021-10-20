@@ -59,7 +59,7 @@ h1{
 }
 
 .top-container{
-    padding-top: 100px;
+    padding-top: 5%;
     position: relative;
 }
 
@@ -106,7 +106,7 @@ h1{
     font-size: 170%;
     font-family: "goth";
     color: #ffbbbb;
-    text-shadow: 3px 3px rgb(255, 95, 95);
+    text-shadow: 3px 3px rgb(245, 115, 115);
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: bolder;
@@ -144,4 +144,20 @@ h1{
     font-family: "Geo";
     color: #ff8e71;
     text-shadow: 2px 2px #ffec7d;
+}
+
+.social{
+    width: 5%;
+}
+
+.copyright{
+    text-align: center;
+    /* margin: 0% 15% 50% 15%; */
+    font-size: 120%;
+    font-family: "Mirza";
+    color: #1699b1;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    line-height: 1.5;
 }
