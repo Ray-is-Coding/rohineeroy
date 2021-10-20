@@ -34,7 +34,8 @@ body{
 
 h1{
     font-size: 350%;
-    color: #289abd;
+    color: #4bbfe2;
+    text-shadow: 3px 3px #093d4d;
     font-family: "Snowball", sans-serif;
     margin-top: 0;
     margin-bottom: 0;
@@ -51,7 +52,8 @@ h1{
     font-family: "P1";
     font-size: 150%;
     text-align: center;
-    color: #1699b1;
+    color: #ffbbbb;
+    text-shadow: 1.5px 1.5px rgb(245, 115, 115);
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: bolder;
