@@ -127,14 +127,17 @@ h1{
     vertical-align: text-bottom;
 }
 .table{
-    table-layout: fixed;
+    table-layout: auto;
     text-align: center;
     border-spacing: 0;
     box-sizing: content-box;
     margin-left: auto;
     margin-right: auto;
+    word-wrap: break-word;
 }
-
+.cell{
+    width: 400px;
+}
 .lang{
     font-size: 160%;
     font-family: "Geo";
@@ -146,6 +149,7 @@ h1{
     font-family: "Geo";
     color: #ff8e71;
     text-shadow: 2px 2px #ffec7d;
+    padding-left: 0;
 }
 
 .social{
